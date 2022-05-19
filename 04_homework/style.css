@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+}
+html, body {
+    font-family: serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 50px auto;
+    background: url('https://aif-s3.aif.ru/images/024/405/42706cb106980d509fc599886c37b4f7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contein {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content {
+    max-width: 450px;
+}
+
+#city {
+    max-width: 70px;
+    margin: 5px 16px;
+    border-radius: 10px;
+}
+
+.wath-city {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.wath-city, .buton{
+    margin: 10px 0px;
+}
+
+.buton {
+    position: relative;
+    left: 10px;
+    max-width: 80px;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.weather {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.degris {
+    font-size: 20px;
+}
+
+.kelv {
+    font-size: 25px;
+}
+
+.fich {
+    font-size: 20px;
+}
+
+.weather div {
+    margin: 20px 20px 10px 20px;
+}
